@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression" parallel="tests" thread-count="6">
+	<parameter name ="url" value="http://www.facebook"></parameter>
+<test name="login">
+	<parameter name="browser" value="chrome"></parameter>
+<classes>
+	<class name="com.zimamoin.org.trainingsession.Sign"></class>	
+	<class name="com.zimamoin.org.trainingsession.Amazon"></class>
+		</classes>
+</test>
+<test name="loginto">
+	<parameter name="browser" value="Edge"></parameter>
+	<classes>
+	<class name="com.zimamoin.org.trainingsession.Sign"></class>	
+	<class name="com.zimamoin.org.trainingsession.Amazon"></class>
+	</classes>
+</test>	
+</suite>
